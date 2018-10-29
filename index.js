@@ -12,7 +12,7 @@ const app = express();
 
 mongoose.connect('mongodb://mongodb:27017/test2', function(err, db) {
   if(err) {
-      console.log('database is not connected')
+      console.log('database is not connected')   
   }
   else {
       console.log('connected!!')
