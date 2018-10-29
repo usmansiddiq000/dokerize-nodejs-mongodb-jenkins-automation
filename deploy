@@ -1,6 +1,10 @@
 ssh john@localhost<<EOF
 cd test-2-node
 git pull
-docker-compose up
-exit
+docker kill mongodb
+docker rm mongodb
+docker kill test
+docker rm test
+docker-compose up &exit
+
 EOF
