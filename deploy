@@ -5,6 +5,6 @@ docker kill mongodb
 docker rm mongodb
 docker kill test
 docker rm test
-docker-compose up &exit
+docker-compose up -d
 
 EOF
