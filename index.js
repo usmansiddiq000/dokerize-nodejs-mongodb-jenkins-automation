@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
  
    blogpost.find({}  , (err , data) => {
     if(err){
-      res.send('Hello world , there is an error')
+      res.send('Hello world , there is an error with find')
     }
     else{
 
