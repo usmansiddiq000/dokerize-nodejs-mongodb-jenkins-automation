@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
  // adding comment
+// second comment
 const BlogPost = new Schema({
   title: String,
   body: String
