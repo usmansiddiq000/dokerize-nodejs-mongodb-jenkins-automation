@@ -31,14 +31,14 @@ it will list all container running.
 # Without docker composer  
 
 To run project without docker composer ,first need to run mongodb , use this command 
-to spin up mongodb container
+to spin up mongodb container.
 
 ```
 docker run -d --name mongodb mongo
 ```
-default port is 27017
+default port is 27017.
 
-inside project folder build docker image
+inside project folder build docker image.
 ```
 docker build  -t <your_docker_username>/nodeapp .
 ```
